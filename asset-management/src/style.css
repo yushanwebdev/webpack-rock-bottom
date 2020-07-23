@@ -1,4 +1,17 @@
+@font-face {
+	font-family: 'red_roseregular';
+	src: url('./fonts/redrose-regular-webfont.eot');
+	src: url('./fonts/redrose-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('./fonts/redrose-regular-webfont.woff2') format('woff2'),
+	url('./fonts/redrose-regular-webfont.woff') format('woff'),
+	url('./fonts/redrose-regular-webfont.ttf') format('truetype'),
+	url('./fonts/redrose-regular-webfont.svg#red_roseregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .hello {
-  color: red;
-  background: url('./sample.png');
+	font-family: 'red_roseregular';
+	color: red;
+	background: url('./sample.png');
 }
